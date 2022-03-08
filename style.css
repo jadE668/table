@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Light";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    background-color: #adcce9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_link {
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: background-color .1s linear;
+}
+.nav_link:hover {
+    background-color: white;
+}
+
+#site-search {
+    margin-left: 50px;
+}
+
+.section {
+    margin: 0 120px;
+}
+.section h1 {
+    font-size: 38px;
+    margin-top: 25px;
+}
