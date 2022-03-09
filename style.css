@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Roboto Light";
+    font-family: sans-serif;
+    background-color: #e0e5eb;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,16 +37,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav_link:hover {
     background-color: white;
+    border-radius: 3px;
+}
+
+.search_button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #e0e5eb;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.search_button:hover {
+    background-color: black;
+    color: white;
 }
 
 #site-search {
+    padding: 5px;
     margin-left: 50px;
 }
 
+
 .section {
     margin: 0 120px;
+
 }
 .section h1 {
     font-size: 38px;
-    margin-top: 25px;
+    margin: 25px 0;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+table th {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 25px 15px;
+}
+table td {
+    background-color: white;
+    padding: 25px 15px;
 }
